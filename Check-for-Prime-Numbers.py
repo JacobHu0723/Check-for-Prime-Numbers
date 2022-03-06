@@ -1,4 +1,3 @@
-
 import sys
 
 a=1
