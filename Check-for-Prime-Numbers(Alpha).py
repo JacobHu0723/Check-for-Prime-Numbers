@@ -1,4 +1,3 @@
-print("欢迎使用《检验质数》！\n请输入一个大于等于2的整数”）开发者：Jacob_Hu\n本程序Gitee库地址:https://gitee.com/jacobhu0723/Check-for-Prime-Numbers\n如有Bug请在Gitee下Issues或评论区中进行反馈！\n")
 print("请输入一个大于等于2的整数！（输入其他字符即可结束运行）\n")
 
 while 1:
