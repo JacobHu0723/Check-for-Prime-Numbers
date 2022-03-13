@@ -1,63 +1,47 @@
-a=1
-b=1
-c=1
-k=1
+print("请输入一个大于等于2的整数！（输入其他字符即可结束运行）\n")
 
-
-while a==1:
-    while b==1:
+while 1:
+        c=1
+        k=1
         
         try:
-             n=int(input("请输入一个大于等于2的整数:"))
+             n=int(input())
         except:
-            print("输入不合法！")
             break
         else:
             
             if n<1:
                 print("输入不合法！")
-                break
+                continue
             if n==1:
                 print("1既不是质数也不是合数！")
-                break
+                continue
             if n==2:
                 print("2是质数!")
-                break
+                continue
             if n==3:
                 print("3是质数!")
-                break
+                continue
             if n%2==0:
                 print(n,"是合数，因为它可以被2整除")
-                break
+                continue
             if n%3==0:
                 print(n,"是合数，因为它可以被3整除")
-                break
+                continue
             while (n/(6*k-1))>=(6*k-1) or (n/(6*k+1))>=(6*k+1):
                 if n%(6*k-1)==0:
                     print(n,"是合数，因为它可以被",6*k-1,"整除")
                     c=2
-                    b=2
                     break
                 if n%(6*k+1)==0:
                     print(n,"是合数，因为它可以被",6*k+1,"整除")
                     c=2
-                    b=2
                     break
                 k+=1
             if c==1:
                  print(n,"是质数！")
-                 break
-    while 1:
-        try:        
-            a=b=c=k=int(input("是否继续？（1.是 2.否）"))
-        except:
-            print("输入不合法！")
-            a=2
-        else:
-            if a==1 or a==2:
-                break
-            else:
-                print("输入不合法！")
-        
+                 continue
+      
+
     
 print("\n感谢您的使用！")
