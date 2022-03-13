@@ -2,8 +2,8 @@
 
 import sys
 
-a=float(input("请输入起始值："))
-b=float(input("请输入终点值："))
+a=int(input("请输入起始值："))
+b=int(input("请输入终点值："))
 
 n=a
 
