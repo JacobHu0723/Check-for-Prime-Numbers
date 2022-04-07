@@ -1,7 +1,7 @@
 # Check-for-Prime-Numbers
 检验质数
 
-学而思编程：[检验质数_学而思编程](https://code.xueersi.com/m/course-detail?id=31328871&lang=webpy)
+Dcoder：[Check for Prime Numbers](https://code.dcoder.tech/files/project/621f1dc21e446172bdd42644/)
 
 ---
 
